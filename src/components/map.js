@@ -84,12 +84,14 @@ class map extends Component {
 		return (
 			<>
 				<Grid
+					className='darkNav'
 					container
 					direction="row"
 					style={{padding: "1%", backgroundColor: "#1769aa"}}
 				>
 					<Grid item xs={12} md={2} style={{padding: "5px"}}>
 						<input
+							autoComplete="off"
 							placeholder="Search for a Lead"
 							style={{width: "100%", padding: "3px"}}
 							name="search"
@@ -101,7 +103,6 @@ class map extends Component {
 						<select
 							style={{
 								width: "100%",
-								color: "#1769aa",
 								backgroundColor: "white",
 								padding: "3px",
 							}}
@@ -118,7 +119,6 @@ class map extends Component {
 						<select
 							style={{
 								width: "100%",
-								color: "#1769aa",
 								backgroundColor: "white",
 								padding: "3px",
 							}}
@@ -141,7 +141,6 @@ class map extends Component {
 						<select
 							style={{
 								width: "100%",
-								color: "#1769aa",
 								backgroundColor: "white",
 								padding: "3px",
 							}}

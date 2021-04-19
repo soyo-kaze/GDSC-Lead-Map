@@ -42,7 +42,10 @@ import palak from "../../photos/pal-16.jpg";
 import AkshaySharma008 from "../../photos/AkshaySharma008.jpg";
 import AdityaBirangal from "../../photos/AdityaBirangal.jpg";
 import ikoala21 from "../../photos/ikoala21.jpg";
-
+import sangeetajha from "../../photos/SangeetaJha.jpg";
+import akshita2k from "../../photos/akshita2k.jpg";
+import taharh from "../../photos/taharh.jpg";
+import AkashM from "../../photos/AkashM.jpg";
 
 const data = [
   {
@@ -709,6 +712,22 @@ const data = [
 		linkedin: "https://linkedin.com/in/palak-mantry",
 		twitter: "https://twitter.com/MantryPalak",
 	},
+	{
+    longitude: 77.620540,
+    latitude: 13.079790,
+    batch: 2020,
+    photo: akshita2k,
+    region: "Asia",
+    skills: ["App Dev", "Web Dev", "AI/ML", "Cloud"],
+    name: "Akshita Sharma",
+    bio: "I enjoy learning and exploring new vistas of Technology while also sharing the knowledge among my peers!",
+    url: "https://dsc.community.dev/dayananda-sagar-academy-of-technology-and-management/",
+    chapterName: "Dayananda Sagar Academy of Technology and Management",
+    github: "https://github.com/akshita2k",
+    linkedin: "https://linkedin.com/in/akshita-sharma-15a703111",
+    instagram: "https://instagram.com/akshi_4446",
+    portfolio: "https://akshita2k.github.io"
+  },
   {
 		longitude: 91.666740,
 		latitude: 26.154620,
@@ -738,7 +757,54 @@ const data = [
     github: "https://github.com/ikoala21",
     linkedin: "https://www.linkedin.com/in/manasa-kalaga/",
     twitter: "https://twitter.com/ikoala21",
-}
+},
+	{
+        "latitude": 28.666450,
+        "longitude": 77.231390,
+        "batch": 2020,
+        "photo": sangeetajha,
+        "region": "Asia",
+        "skills": ["Web Dev", "UI/UX", "Cloud"],
+        "name": "Sangeeta Jha",
+        "bio": "Always open for opportunities and love exploring new technologies",
+        "url": "https://dsc.community.dev/indira-gandhi-delhi-technical-university-for-women/",
+        "chapterName": "Indira Gandhi Delhi Technical University for Women",
+        "github": "https://github.com/nehasangeetajha",
+        "linkedin": "https://www.linkedin.com/in/sangeeta-jha-765232142/",
+        "twitter": "https://twitter.com/nehasangeetajha",
+        "portfolio": "http://sangeeta-jha.web.app/"
+},
+	{
+        "latitude": 35.811914,
+        "longitude": 10.638553,
+        "batch": 2020,
+        "photo": taharh,
+        "region": "North Africa",
+        "skills": ["AI/ML","App Dev", "Cloud"],
+        "name": "Taha Rehah",
+        "bio": "Explorer,Open Source Enthusiast, Community Person, Tensorflow Developer!",
+        "url": "https://dsc.community.dev/higher-institute-of-applied-science-and-technology/",
+        "chapterName": "Higher Institute of Applied Science and Technology of Sousse",
+        "github": "https://github.com/taharh",
+        "linkedin": "https://linkedin.com/in/taha-rehah",
+        "twitter": "https://twitter.com/TahaRehah"
+  },
+	{
+        "latitude": 12.873014,
+        "longitude": 80.221892,
+        "batch": 2020,
+        "photo": AkashM,
+        "region": "Asia",
+        "skills": ["Web Dev", "UI/UX", "Cybersecurity"],
+        "name": "Akash M",
+        "bio": "Yet another developer",
+        "url": "https://dsc.community.dev/sathyabama-institute-of-science-technology/",
+        "chapterName": "Sathyabama Institute of Science and Technology",
+        "github": "https://github.com/AkashM398",
+        "linkedin": "https://www.linkedin.com/in/akashm398",
+        "twitter": "https://twitter.com/akashm398",
+        "portfolio": "https://akashbuild.tech/"
+  }
 ];
 
 export default data;
